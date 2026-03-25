@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+}
+
+.background {
+  background-color: white;
+  padding: 30px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 600px;
+}
+
+.title {
+  font-size: 30px;
+  padding: 10px;
+  background-color:#143c46;
+  color:white;
+  text-align: center;
+}
+
+.mid {
+  display: inline-block;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+.header {
+  color: red;
+  font-size: large;
+  font-weight: 600;
+}
+
+li {
+  list-style-type: none;
+  line-height: 1.7em;
+}
+
+.cat {
+  float: right;
+}
