@@ -1,0 +1,57 @@
+fieldset {
+  width: 450px;
+  line-height: 2.5em;
+  background-image: url(./sam.png);
+  background-repeat: no-repeat;
+  background-position: auto;
+  background-size: 600%;
+}
+
+legend {
+  color:rgb(236, 57, 236);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+label[for="require"], #require {
+    vertical-align: top; 
+}
+
+.required-star::before {
+  content: "*";
+  color: red;
+}
+
+#name:focus, #age:focus, #require:focus {
+    outline: none; 
+    border: 3px solid red; 
+}
+
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+
+input[type="text"], 
+input[type="number"], 
+textarea {
+    background-color: transparent;
+    border: 1px solid #000;  
+}
+
+button[type="submit"] {
+    position: relative;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover::after {
+    content: "내용을 다시 한 번 확인해 주세요.";
+    position: absolute;
+    left: 105%;
+    background-color: #000; 
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+    white-space: nowrap; 
+    z-index: 10;
+}
