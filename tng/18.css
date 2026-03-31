@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  width: 450px;
+  height: 500px;
+  margin: auto;
+  padding: 10px;
+  background-color: gray;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.cell {
+  display: grid;
+  gap: 10px;
+}
+
+.item {
+  background-color: cadetblue;
+  border: 1px solid black;
+}
+
+.item:nth-child(3) {
+  grid-column: 1 / span 2;
+}
