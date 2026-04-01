@@ -69,7 +69,7 @@ a {
 
 .side-inner {
   /*
-    grid item인 `.side-bar`에 position을 줘도 적요이 안되므로
+    grid item인 `.side-bar`에 position을 줘도 적용이 안되므로
     `side-bar`의 콘텐츠(자식요소)들을 한번 더 `.side-inner` 랩핑 해줬다.
   */
   position: sticky;
